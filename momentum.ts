@@ -58,7 +58,7 @@ function handleModelsRequest(): Response {
       id: modelId,
       object: "model",
       created: Math.floor(Date.now() / 1000),
-      owned_by: "tarotoo",
+      owned_by: "movementlabs",
     })),
   };
 
